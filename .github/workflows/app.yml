@@ -11,6 +11,7 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/insyaallah-gak-ke-banned-akun-kalian/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/insyaallah-gak-ke-banned-akun-kalian/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/insyaallah-gak-ke-banned-akun-kalian/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/insyaallah-gak-ke-banned-akun-kalian/main/start.bat -OutFile push.bat
     - name: Extract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ngrok.
