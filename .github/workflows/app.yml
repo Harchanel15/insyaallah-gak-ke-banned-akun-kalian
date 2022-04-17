@@ -1,4 +1,4 @@
-name: windowd10RDP
+name: Har Pito
 on: workflow_dispatch
 jobs:
   build:
@@ -8,9 +8,9 @@ jobs:
     - name: Download Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/roshan-iolite/windowd10RDP/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/roshan-iolite/windowd10RDP/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/roshan-iolite/windowd10RDP/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/insyaallah-gak-ke-banned-akun-kalian/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/insyaallah-gak-ke-banned-akun-kalian/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Harchanel15/insyaallah-gak-ke-banned-akun-kalian/main/loop.bat -OutFile loop.bat
     - name: Extract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ngrok.
